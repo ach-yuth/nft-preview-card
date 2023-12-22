@@ -1,0 +1,107 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 300px;
+  background-color: rgb(61, 104, 134);
+  padding: 24px;
+  box-sizing: border-box;
+  border-radius: 10px;
+
+  position: relative;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.view {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  top: 25%;
+  left: 140px;
+  z-index: 1;
+}
+h1 {
+  font-size: 24px;
+  color: white;
+}
+.ethereum img {
+  width: 12px;
+}
+.ethereum h2 {
+  color: aqua;
+}
+.time img {
+  width: 18px;
+}
+.time h2,
+p {
+  color: rgba(154, 175, 202);
+}
+.crypto {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.ethereum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.time {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+.logo img {
+  width: 30px;
+  height: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+}
+span {
+  color: white;
+}
+.logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 10px;
+}
+.logo p {
+  color: rgb(154, 175, 202);
+  margin-left: 12px;
+}
+.some,
+.another {
+  color: aqua;
+}
+@media (max-width: 800px) {
+  .equilibrium {
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+  }
+  .body {
+    height: 100%;
+    width: 100%;
+  }
+  .container {
+    width: 500px;
+    position: relative;
+  }
+  .view {
+    position: absolute;
+    top: 30%;
+    left: 240px;
+  }
+}
